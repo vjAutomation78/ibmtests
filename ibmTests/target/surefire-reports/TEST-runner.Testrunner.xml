@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="30" failures="0" name="runner.Testrunner" time="0.496" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/vpujar/dev-new/ibmTests"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/vpujar/dev-new/ibmTests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_l/279ww9_51vv1spqvgy958ldm00010n/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/vpujar/Downloads/apache-maven-3.6.2/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/vpujar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/vpujar/Downloads/apache-maven-3.6.2/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="library.jansi.path" value="/Users/vpujar/Downloads/apache-maven-3.6.2/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/vpujar"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="vPujarZaizi"/>
+    <property name="java.class.path" value="/Users/vpujar/Downloads/apache-maven-3.6.2/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/vpujar/Downloads/apache-maven-3.6.2"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: Verifying that English is the default language on Wikipedia search page" name="Given user is on the wikipedia homepage" time="0.002"/>
+  <testcase classname="Scenario: Verifying that English is the default language on Wikipedia search page" name="When user checks the default language for the search field" time="0"/>
+  <testcase classname="Scenario: Verifying that English is the default language on Wikipedia search page" name="Then verify &quot;English&quot; is displayed as the default search language" time="0"/>
+  <testcase classname="Scenario: Verifying that English is the default language on Wikipedia search page" name="Scenario: Verifying that English is the default language on Wikipedia search page" time="0.079"/>
+  <testcase classname="| test plan |" name="Given user is on the wikipedia homepage" time="0"/>
+  <testcase classname="| test plan |" name="When user searches for a string using &quot;test plan&quot; string" time="0"/>
+  <testcase classname="| test plan |" name="Then user verifies that the search results page matches the &quot;test plan&quot; string" time="0"/>
+  <testcase classname="| test plan |" name="And verifies that the search results page is available in other languages" time="0"/>
+  <testcase classname="| test plan |" name="| test plan |" time="0.078"/>
+  <testcase classname="| Capybara |" name="Given user is on the wikipedia homepage" time="0"/>
+  <testcase classname="| Capybara |" name="When user searches for a string using &quot;Capybara&quot; string" time="0"/>
+  <testcase classname="| Capybara |" name="Then user verifies that the search results page matches the &quot;Capybara&quot; string" time="0"/>
+  <testcase classname="| Capybara |" name="And verifies that the search results page is available in other languages" time="0"/>
+  <testcase classname="| Capybara |" name="| Capybara |" time="0.084"/>
+  <testcase classname="| seleNIUM |" name="Given user is on the wikipedia homepage" time="0"/>
+  <testcase classname="| seleNIUM |" name="When user searches for a string using &quot;seleNIUM&quot; string" time="0"/>
+  <testcase classname="| seleNIUM |" name="Then user verifies that the search results page matches the &quot;seleNIUM&quot; string" time="0"/>
+  <testcase classname="| seleNIUM |" name="And verifies that the search results page is available in other languages" time="0"/>
+  <testcase classname="| seleNIUM |" name="| seleNIUM |" time="0.083"/>
+  <testcase classname="| champions LEAGUE |" name="Given user is on the wikipedia homepage" time="0"/>
+  <testcase classname="| champions LEAGUE |" name="When user searches for a string using &quot;champions LEAGUE&quot; string" time="0"/>
+  <testcase classname="| champions LEAGUE |" name="Then user verifies that the search results page matches the &quot;champions LEAGUE&quot; string" time="0"/>
+  <testcase classname="| champions LEAGUE |" name="And verifies that the search results page is available in other languages" time="0"/>
+  <testcase classname="| champions LEAGUE |" name="| champions LEAGUE |" time="0.087"/>
+  <testcase classname="Scenario: Navigating to search results page in a different language" name="Given user is on the wikipedia homepage" time="0"/>
+  <testcase classname="Scenario: Navigating to search results page in a different language" name="When user sets the language to German &quot;Deutsch&quot; on the home page" time="0"/>
+  <testcase classname="Scenario: Navigating to search results page in a different language" name="And user searches for a string using &quot;champions league&quot; string" time="0"/>
+  <testcase classname="Scenario: Navigating to search results page in a different language" name="Then user verifies that the search results page matches the &quot;champions league&quot; string" time="0"/>
+  <testcase classname="Scenario: Navigating to search results page in a different language" name="And verifies that search results has a link to version in English" time="0.001"/>
+  <testcase classname="Scenario: Navigating to search results page in a different language" name="Scenario: Navigating to search results page in a different language" time="0.082"/>
+</testsuite>
